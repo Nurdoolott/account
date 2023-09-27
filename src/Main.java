@@ -6,6 +6,7 @@ public class Main {
         account.withdraw(500);
         account.deposit(200);
         account.withdraw(800);
+        account.deposit(500);
 
         System.out.println("Account Holder: " + account.getAccountHolder());
         System.out.println("Account Number: " + account.getAccountNumber());
